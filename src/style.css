@@ -1,0 +1,57 @@
+body {
+  height: 500px;
+  width: 800px;
+  margin: auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+header {
+  text-align: center;
+
+}
+
+.all {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+
+}
+
+.box {
+  border: 2px solid lightcoral;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  background-color: #fff8eb;
+  
+
+}
+
+textarea[name="user-input"] {
+  background-color:beige;
+  height: auto;
+  border-radius: 5px;
+  border-color:rosybrown ;
+  border-width: 3px;
+
+}
+
+footer {
+  text-align: right;
+}
+
+#reset-button {
+  background-color: rgba(200, 0, 106, 0.892);
+  color: white;
+  height: 50px;
+  width: 150px;
+ border: white;
+}
