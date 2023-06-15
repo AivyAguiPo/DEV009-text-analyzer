@@ -16,7 +16,7 @@ const analyzer = {
     for (let i= 0; i< elementsWordCount; i++){//
       const element= elementw[i];// acceder un elemento del array por indice ,se asigna const element al elemento en el bucle
       if(element){//se verifica si element es verdadero, esto asegura que solo considere palabras no vacias
-         words.push(element)//si element es una palabra no vacia,se agrega al array words utilizando el método push
+        words.push(element)//si element es una palabra no vacia,se agrega al array words utilizando el método push
       }// si element es diferente de vacio 
     }
     const wordsCount=words.length;// representa el conteo de plabras
