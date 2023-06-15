@@ -10,9 +10,9 @@ const analyzer = {
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
   },
   getWordCount: (text) => { 
-    const elementw =text.split(" "); // funcion del string que divide el texto por un delimitador y devuelve un arreglo `elementw`
-    const elementsWordCount =elementw.length;//cuenta los elementos
-    const words =[]; //declaro un arreglo vacio -words mi array
+    const elementw =text.split(" "); // funcion split del string que divide el texto por un delimitador y devuelve un arreglo `elementw`
+    const elementsWordCount =elementw.length;//Número total de elementos
+    const words =[]; //declaro un arreglo vacio -words mi array , este almacena las palabras encontradas en el texto
     for (let i= 0; i< elementsWordCount; i++){
       const element= elementw[i];// acceder un elemento del array por indice 
       if(element){
