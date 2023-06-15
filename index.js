@@ -14,15 +14,15 @@ areatexto.addEventListener('keyup', function (){
   const averageWordlengthli = document.querySelector('.box:nth-child(6)');
   const characterCount = analyzer.getCharacterCount(areatexto.value);//analyzer tiene sus funciones , getcharas
   const wordCount = analyzer.getWordCount(areatexto.value);
+  const numberCount = analyzer.getNumberCount(areatexto.value);
+  const numberplus = analyzer.getNumberSum(areatexto.value);
+  const characterCountExcludingSpaces = analyzer.getCharacterCountExcludingSpaces(areatexto.value);
+  const averageWordlength = analyzer.getAverageWordLength(areatexto.value);
   characterCountLi.innerHTML = `Caracteres: ${characterCount}`; //literal string ${};template strings es una string que contiene variables en su interior, para hacer el llamado a la variable se utiliza "${}"
   wordCountli.innerHTML = `Palabras: ${wordCount}`;
-  const numberCount = analyzer.getNumberCount(areatexto.value);
   numberCountli.innerHTML = `Numeros: ${numberCount}`;
-  const numberplus = analyzer.getNumberSum(areatexto.value);
   numberplusli.innerHTML = `Suma de números: ${numberplus}`;
-  const characterCountExcludingSpaces = analyzer.getCharacterCountExcludingSpaces(areatexto.value);
   characterCountExcludingSpacesli.innerHTML = `Caracteres sin espacios: ${characterCountExcludingSpaces}`;
-  const averageWordlength = analyzer.getAverageWordLength(areatexto.value);
   averageWordlengthli.innerHTML = `Promedio longitud: ${averageWordlength}`;
 });
 
