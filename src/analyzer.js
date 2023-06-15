@@ -16,7 +16,7 @@ const analyzer = {
     for (let i= 0; i< elementsWordCount; i++){
       const element= elementw[i];// acceder un elemento del array por indice 
       if(element){
-       words.push(element)
+        words.push(element)
       }// si element es diferente de vacio 
     }
     const wordsCount=words.length;
