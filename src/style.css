@@ -1,7 +1,8 @@
 body {
+  background-color: #ffbea8;
   height: 500px;
-  width: 800px;
-  margin: auto;
+  width: 900px;
+  margin: auto ;
 }
 
 section {
@@ -11,7 +12,10 @@ section {
 }
 
 header {
+  background-color: #df8090;
+  border-radius: 15px;
   text-align: center;
+  color: white;
 
 }
 
@@ -26,11 +30,12 @@ header {
 }
 
 .box {
-  border: 2px solid lightcoral;
+  border: 3px solid #f47979;
   border-radius: 10px;
   text-align: center;
   padding: 5px;
   background-color: #fff8eb;
+  color:rgb(134, 96, 96);
   
 
 }
@@ -40,18 +45,23 @@ textarea[name="user-input"] {
   height: auto;
   border-radius: 5px;
   border-color:rosybrown ;
-  border-width: 3px;
+  border-width: 5px;
 
 }
 
 footer {
-  text-align: right;
+  background-color:#B04759 ;
+  color: #F1EB9A;
+  text-align: center ;
+  border-radius: 15px;
+
 }
 
 #reset-button {
-  background-color: rgba(200, 0, 106, 0.892);
+  background-color: #B04759;
   color: white;
   height: 50px;
   width: 150px;
- border: white;
+ border: 5px solid #E76161;
+ border-radius: 20px;
 }

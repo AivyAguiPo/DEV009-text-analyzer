@@ -13,13 +13,13 @@ const analyzer = {
     const elementw =text.split(" "); // funcion split del string que divide el texto por un delimitador y devuelve un arreglo `elementw`
     const elementsWordCount =elementw.length;//Número total de elementos
     const words =[]; //declaro un arreglo vacio -words mi array , este almacena las palabras encontradas en el texto
-    for (let i= 0; i< elementsWordCount; i++){
-      const element= elementw[i];// acceder un elemento del array por indice 
-      if(element){
-        words.push(element)
+    for (let i= 0; i< elementsWordCount; i++){//
+      const element= elementw[i];// acceder un elemento del array por indice ,se asigna const element al elemento en el bucle
+      if(element){//se verifica si element es verdadero, esto asegura que solo considere palabras no vacias
+         words.push(element)//si element es una palabra no vacia,se agrega al array words utilizando el método push
       }// si element es diferente de vacio 
     }
-    const wordsCount=words.length;
+    const wordsCount=words.length;// representa el conteo de plabras
     return wordsCount
     
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
@@ -41,24 +41,24 @@ const analyzer = {
   },
   getNumberSum: (text) => {
     const elements =text.split(" "); // la función split separa la cadena text con el espacio (" "), cada palabra o número se convierte en elemento en el array `elements`
-    const elementsCount =elements.length;//cuenta los elementos
-    let total = 0; 
-    for (let i= 0; i< elementsCount; i++){
-      const element= Number(elements[i]);
-      if (!isNaN(element)){total+=element}
-    }
+    const elementsCount =elements.length;//cuenta los elementos , representa el número de elementos
+    let total = 0; //esta variable se utilizara para alamcenar la suma de numeros , variable total con valor 0
+    for (let i= 0; i< elementsCount; i++){//el bucle for itera sobre cada elemento en el array `elements`
+      const element= Number(elements[i]);// el elemento del bucle se convierte en número con las función `Number()`
+      if (!isNaN(element)){total+=element}// se ve si `element` no es un valor NaN(no es un número),esto da que solo tome elementos numéricos validos
+    }//si `element` es un número valido se suma al valor actual de `total` utilizando el operador +=
     return total
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
   },
   getAverageWordLength: (text) => {    
     const wordL = text.split(" ");//la función split separa la cadena text con el espacio (" "), cada palabra o número se convierte en elemento en el array `wordL`
-    let lengthTotal = 0;
-    for (let i=0; i < wordL.length; i++){
-      lengthTotal += wordL[i].length;
+    let lengthTotal = 0;//esta variable se utiliza para almacenar la suma de longitudes de las palabras
+    for (let i=0; i < wordL.length; i++){//el bucle for itera sobre cada elemento en el array `wordL`
+      lengthTotal += wordL[i].length;//se suma la longitud de cada palabra ,esto suma el total de las longitudes de todas las palabras
     }
-    const averageWord = lengthTotal / wordL.length; 
-    const averageWordL = averageWord.toFixed(2);
-    const averageWordFinal = Number(averageWordL);
+    const averageWord = lengthTotal / wordL.length; //se calcula la longitud promedio de las palabras, diviendo la suma total de longitudes entre la cantidad de palabras en el texto
+    const averageWordL = averageWord.toFixed(2);// con toFixed() redondeo a dos decimales el resultado
+    const averageWordFinal = Number(averageWordL);//como me daba un string se utilizo la funcion `Number` para convertirlo a número
     return averageWordFinal;
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
   },
