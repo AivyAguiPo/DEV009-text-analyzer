@@ -52,4 +52,11 @@
 ## 5. JavaScrip
 
 
+## 6. Diseño de producto
+Ultimamente los temas vintage,retro y tierno , esta muy presente en los diseños para paginas web o apps, es por ello que me fui por escoger una paleta de colores pasteles ,ya que investigando que dentro de esos conceptos quedarian bien visualmente. 
+- Paleta de colores:
+   ![paleta de colores](<paleta de colores.png>)
+   ![paleta de colores 2](<paleta de colores 2.png>)
+## 7. Página desplegada
 
+![Text Analyzer](<Text Analyzer.png>)
