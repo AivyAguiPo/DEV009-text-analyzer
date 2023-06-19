@@ -38,22 +38,27 @@
 ## 4. Web APIs
 
 * Selectores del DOM:
-  - `selector del DOM querySelector`: 
-  - `selector del DOM getElementById`: 
+  - `selector del DOM querySelector`: Método que se utiliza para buscar y seleccionar el primer elemento que coincida con un selector CSS , en este caso se uso para seleccionar los elementos por su clase de esta manera ***document.querySelector('.box:nth-child(1)')*** , donde se usa **:nth-child(1)** para seleccionar el primer elemento de la clase **box**.
+  - `selector del DOM getElementById`: Método que se utiliza para obtener un elemento HTML con un ID específico, en este caso se utilizo para acceder y manipular el elemento con el **id="reset-button"**.
 * Manejos de eventos del DOM (listeners,propagación,delegación)
-  - `Event Listener para el evento **keyup** del <textarea>`: 
+  - `Event Listener para el evento **keyup** del <textarea>`: Se agrega un evento de escucha al ***areatexto*** que espera el evento ***keyup*** de soltar una tecla,después de realizarla se ejecuta una función.
 
-  - `Event Listener para el evento **click** del <button>`: 
+  - `Event Listener para el evento **click** del <button>`: Se utiliza el método ***addEventListener()*** para agregar un escucha de eventos a un elemento, en este caso se agrega un evento de escucha a ***resetbutton*** que espera el evento de **'click'** ; que al realizarla se ejecuta una función.
+
 * Manipulación dinámica del DOM:
-  - `innerHTML`: 
-
-  
+  - `innerHTML`: Es una propiedad con la cual se actualiza el contenido de los ***<li>*** ,quiere decir que se establecera con los textos ingresados para cada uno de ellos.
 
 ## 5. JavaScrip
-
+Con JavaSccrip se agrego interactividad y funcionalidad a las 6 funciones declaradas :
+- `analyzer.getWordCount(text)`: en esta función retorna el recuento de palabras que se encuentran en el parámetro text de tipo string.
+- `analyzer.getCharacterCount(text)`: en esta función retorna el recuento de caracteres que se encuentran en el parámetro text de tipo string.
+- `nalyzer.getCharacterCountExcludingSpaces(text`: en esta función retorna el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro text de tipo string.
+- `analyzer.getNumberCount(text)`: en esta función retorna cúantos números se encuentran en el parámetro text de tipo string.
+- `analyzer.getNumberSum(text)`: en esta función retorna la suma de todos los números que se encuentran en el parámetro text de tipo string.
+- `analyzer.getAverageWordLength(text)`: en esta función retorna la longitud media de palabras que se encuentran en el parámetro text de tipo string. En este caso usa 2 dígitos decimales.
 
 ## 6. Diseño de producto
-Ultimamente los temas vintage,retro y tierno , esta muy presente en los diseños para paginas web o apps, es por ello que me fui por escoger una paleta de colores pasteles ,ya que investigando que dentro de esos conceptos quedarian bien visualmente. 
+Ultimamente los temas vintage y retro , esta muy presente en los diseños para paginas web o apps, es por ello que me incline a escoger una paleta de colores pastel. 
 - Paleta de colores:
    ![paleta de colores](<paleta de colores.png>)
    ![paleta de colores 2](<paleta de colores 2.png>)
