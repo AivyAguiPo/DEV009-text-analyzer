@@ -46,7 +46,7 @@
   - `Event Listener para el evento **click** del <button>`: Se utiliza el método ***addEventListener()*** para agregar un escucha de eventos a un elemento, en este caso se agrega un evento de escucha a ***resetbutton*** que espera el evento de **'click'** ; que al realizarla se ejecuta una función.
 
 * Manipulación dinámica del DOM:
-  - `innerHTML`: Es una propiedad con la cual se actualiza el contenido de los ***<li>*** ,quiere decir que se establecera con los textos ingresados para cada uno de ellos.
+  - `innerHTML`: Es una propiedad con la cual se actualiza el contenido de los `<li>` ,quiere decir que se establecera con los textos ingresados para cada uno de ellos.
 
 ## 5. JavaScrip
 Con JavaSccrip se agrego interactividad y funcionalidad a las 6 funciones declaradas :
