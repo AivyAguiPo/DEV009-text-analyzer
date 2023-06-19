@@ -57,6 +57,7 @@ Con JavaSccrip se agrego interactividad y funcionalidad a las 6 funciones declar
 - `analyzer.getNumberSum(text)`: en esta función retorna la suma de todos los números que se encuentran en el parámetro text de tipo string.
 - `analyzer.getAverageWordLength(text)`: en esta función retorna la longitud media de palabras que se encuentran en el parámetro text de tipo string. En este caso usa 2 dígitos decimales.
 
+
 ## 6. Diseño de producto
 Ultimamente los temas vintage y retro , esta muy presente en los diseños para paginas web o apps, es por ello que me incline a escoger una paleta de colores pastel. 
 - Paleta de colores:
