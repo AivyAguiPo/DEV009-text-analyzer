@@ -1,6 +1,6 @@
 const analyzer = {  
   getCharacterCount: (text) => {//getCharacterCount es definida como función que toma el parámetro llamado `text`
-    return text.length; //*length devuelve el largo del string incluido el espacio osea el numero de elementos(cantidad de elementos encontrados en el texto)
+    return text.length; //*length devuelve el largo del string incluido el espacio osea el número de elementos(cantidad de elementos encontrados en el texto)
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
   },
   getCharacterCountExcludingSpaces: (text) => { // getCharacterCountExcludingSpaces es definida como función que toma el parámetro llamado `text`

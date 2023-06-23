@@ -11,7 +11,7 @@ const numberCountli = document.querySelector('.box:nth-child(4)');
 const numberplusli = document.querySelector('.box:nth-child(5)');
 const averageWordlengthli = document.querySelector('.box:nth-child(6)');
 resetbutton.addEventListener('click', function () { 
-  areatexto.value = "" 
+  areatexto.value = "" ;
   characterCountLi.innerHTML = 'Caracteres: 0'; //literal string ${};template strings es una string que contiene variables en su interior, para hacer el llamado a la variable se utiliza "${}"
   wordCountli.innerHTML = 'Palabras: 0';
   numberCountli.innerHTML = 'Numeros: 0';
